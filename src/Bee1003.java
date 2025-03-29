@@ -1,12 +1,16 @@
 import java.util.Scanner;
-public class Bee1001{
+public class Bee1003 {
     public static void main(String[] args){
+
         Scanner sc = new Scanner(System.in);
-        int A, B, X;
+
+        int A, B, soma;
         A = sc.nextInt();
         B = sc.nextInt();
-        X = A + B;
-        System.out.printf("X = %d", X);
+        soma = A + B;
+
+        System.out.printf("SOMA = %d%n", soma);
+
         sc.close();
     }
 }
